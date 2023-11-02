@@ -5,8 +5,8 @@ export default function Footer () {
 
   return (
     <footer className='footer'>
-      <h4>Prueba técnica de React ⚛️ － <span>@midudev</span></h4>
-      <h5>Shopping Cart con useContext & useReducer</h5>
+      <h4>Prototipo Ecommerce － <span>aguhcode</span></h4>
+      <h5>Desarrollado con reactjs⚛️</h5>
     </footer>
   )
 }
