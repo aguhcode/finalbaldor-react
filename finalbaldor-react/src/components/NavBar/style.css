@@ -1,0 +1,27 @@
+
+.navStyle {
+    background-color: #02511c;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navStyle h3 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .navStyle button {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .navStyle button:hover {
+    text-decoration: underline;
+  }
+  
