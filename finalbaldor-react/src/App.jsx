@@ -11,15 +11,17 @@ import { CartProvider } from './components/Context/Cart';
 function App() {
   const { filterProducts } = useFilters();
   const filteredProducts = filterProducts(productsData.products);
+ 
 
   return (
     <CartProvider>
       <Header />
       <Cart />
-      <Products products={filteredProducts} />
+      <Products products={filteredProducts}  />
       {IS_DEVELOPMENT && <Footer />}
     </CartProvider>
   );
 }
 
 export default App;
+  
